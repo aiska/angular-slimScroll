@@ -1,9 +1,12 @@
 /**
- * ArkhaTemplate
- * Created by :
- * User: Aiska Hendra
- * Date: 3/9/2016
- * Time: 1:36 AM
+ * AngularJS Slimscroll directive
+ * Originally developed by Piotr Rochala (http://rocha.la) (jQuery version)
+ *
+ * ReWrite by Aiska Hendra for AngularJS Directive implementation
+ *
+ * Author: Aiska Hendra (aiskahendra@gmail.com)
+ * Licence: MIT (http://www.opensource.org/licenses/mit-license.php)
+ * Version 1.0.0
  */
 angular.module('ngSlimScroll', []).directive('slimScroll', ['$document', '$window', function ($document, $window) {
     'use strict';
