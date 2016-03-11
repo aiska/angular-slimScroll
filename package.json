@@ -1,5 +1,5 @@
 {
-  "name": "angular-slimscroll",
+  "name": "angular-slimscroll-aiska",
   "version": "1.0.0",
   "description": "Angular JS implementation of jQuery-slimScroll without JQuery Dependencies",
   "main": "angular-slimScroll.js",
