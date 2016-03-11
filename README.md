@@ -16,7 +16,7 @@ Install
 
 #### With npm
 
-    $ npm install angular-slimScroll
+    $ npm install angular-slimscroll
 
 #### Example Configuration (bower)
 ```html
