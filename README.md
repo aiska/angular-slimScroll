@@ -12,7 +12,7 @@ Install
 
 #### With bower:
 
-    $ bower install angular-slimScroll --save
+    $ bower install angular-slimScroll
 
 #### With npm
 
@@ -22,18 +22,18 @@ Install
 ```html
 <!DOCTYPE html>
 <html ng-app="app">
-<body ng-controller="Ctrl as ctrl">
+<body>
 
-  <div ng-slimscroll>long content ... </div>
+<div slim-scroll height="300px">
+    Content ...
+</div>
 
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
-  <script type="text/javascript" src="bower_components/ngSlimscroll/src/js/ngSlimscroll.js"></script>
-  <script type="text/javascript">
-    var app = angular.module('app', ['ngSlimScroll']);
-    app.controller('Ctrl', [function() {
-	  var self = this;
-    }]);
-</script>
+<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+<script type="text/javascript" src="bower_components/angular-slimScroll/angular-slimScroll.min.js"></script>
+<script type="text/javascript">
+    var app = angular.module('app', [
+        'ngSlimScroll'
+    ]);</script>
 </body>
 </html>
 ```
