@@ -1,4 +1,5 @@
 # angular-slimScroll
+[![Gitter](https://badges.gitter.im/aiska/angular-slimScroll.svg)](https://gitter.im/aiska/angular-slimScroll?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 Angular JS implementation of jQuery-slimScroll without JQuery Dependencies
 
 #### ngSlimscroll
