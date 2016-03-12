@@ -17,7 +17,7 @@ angular.module('ngSlimScroll', []).directive('slimScroll', ['$document', '$windo
         compile: function compile(element, attrs) {
             var el = element[0],
                 width = attrs['width'] || 'auto',
-                height = attrs['height'] || el.clientHeight || '100%',
+                height = attrs['height'] || '100%',
                 size = attrs['size'] || '7px',
                 alwaysVisible = eval(attrs['alwaysVisible']) || false,
                 railVisible = eval(attrs['railVisible']) || false,
